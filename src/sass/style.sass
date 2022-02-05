@@ -1,0 +1,83 @@
+// @import "./_variable"
+@import "./_fonts"
+
+// All -------------------------------------------------------------------------------
+*
+    font-family: 'Oswald-Medium'
+#root
+    background: linear-gradient(0deg, rgba(4,5,93,1) 40%, rgba(75,78,185,1) 100%)
+    min-height: 100vh
+// ScoreDashboard --------------------------------------------------------------------
+#scoreDashboard
+    .rounded-4
+        border-radius: 0.90rem
+    h1
+        margin: 0px
+        color: white
+    .score
+        background-color: white
+        height: 100%
+        p
+            margin: 20px
+            letter-spacing: 3px
+            margin: 0px
+        span
+            font-style: bold
+            font-size: 50px
+// GameDashboard ---------------------------------------------------------------------
+#gameDashboard
+    .jetonBoutton
+            max-width: fit-content
+            cursor: pointer
+            padding: 0px
+    .plopparent
+        width: 300px
+        height: 300px
+        >img
+            width: 200px
+    .plopenfant
+        top: 0px 
+// Rules -----------------------------------------------------------------------------
+#rules
+    .col
+        max-width: 100px 
+        cursor: pointer
+        p
+            margin: 0px
+            letter-spacing: 3px
+            color: white
+            font-size: 14px
+// Jeton -----------------------------------------------------------------------------
+#jeton
+    width: 120px
+    height: 120px
+    background: white
+    border: 1em solid red
+// Game ------------------------------------------------------------------------------
+#game 
+    p
+        margin-top: 15px
+        color: white   
+// Play Again ------------------------------------------------------------------------
+#playAgain
+    h2
+        color: white
+        font-size: 50px
+    button
+        letter-spacing: 3px
+        font-size: 14px
+    
+// Modal -----------------------------------------------------------------------------
+.modal-content
+    width: fit-content
+    .modal-header
+        border-bottom: 0px
+    img
+        max-width: fit-content
+// Media Screen ----------------------------------------------------------------------
+@media screen and (max-width: 640px) 
+    .modal-dialog
+        margin: 0px
+    .modal-content
+        height: 100vh
+
